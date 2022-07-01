@@ -1,0 +1,83 @@
+@media only screen and (max-width:768px) {
+  
+    .hnav-resp{
+        height: 60vh;
+    }
+    .btn-grp{
+        position: relative;
+       width: 0px;
+     
+      opacity: 0;
+      
+       
+    }
+ 
+    .btn {
+        width:fit-content;
+        position: relative;
+        width: 80px;
+        margin: 6px 0px;
+        border-bottom: 1px solid;
+        
+      
+        
+        
+       
+
+    }
+   
+  
+    .burger{
+        display: block;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        
+      
+        width: 50px;
+        height: 50px;
+    }
+    .line{
+        display: block;
+        
+    }
+      .vclass-resp {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+       
+        width: 20%;
+        position: relative;
+        
+       
+        position: relative;
+        left: 20%;
+        
+        opacity: inherit;
+      }
+      .btn:hover{
+        color: antiquewhite;
+       
+      
+      }
+    } 
+   
+
+    @media  (min-width:100px) and (max-width:376px) {
+        .vclass-resp {
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            
+            position: relative;
+            left: 8%;
+            opacity: inherit;
+            top: 35px;
+            
+        } 
+        
+        
+        
+    }
+    
+    

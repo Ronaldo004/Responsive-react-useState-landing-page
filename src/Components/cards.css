@@ -1,0 +1,73 @@
+
+.Main{
+   
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content:space-between;
+    align-content: space-around;
+    align-items:center;
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-top: 50px;
+}
+.cardMain{
+    margin: 10px 0px;
+   border: solid 0.5px black ;
+   border-radius: 5px;
+    width: 30vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 6px 12px 6px black;
+
+}
+.cardNo{
+    
+    width: 25px;
+    height: 25px;
+    border-radius: 20px 20px 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:10px 3px;
+}
+.carHead{
+   
+    width:28vw ;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.carDes{
+  
+    width: 28vw;
+    height: auto;
+    margin: 2px 0px;
+}
+.Image{
+    
+    width: 28vw;
+    height: auto;
+    margin: auto 0px;
+}
+.Image img{
+    width: 28vw;
+    height: auto;
+}
+.Button{
+    width: 28vw;
+    margin: 5px 0px;
+    
+}
+.Button button{
+    width: 100px;
+    height: 30px;
+   
+   
+/* font-family: 'Rubik Moonrocks', cursive; */
+}
